@@ -11,9 +11,9 @@
     </div>
 
     <div class="color-picker">
-      <VSwatches
+      <input
         v-model="color"
-        show-fallback
+        type="color"
         fallback-input-type="color"
       />
       <div>Choisis une couleur !</div>
@@ -24,14 +24,12 @@
 
 <script lang="ts">
   import { defineComponent } from "vue";
-  import VSwatches from "vue3-swatches";
   import type { Pixel } from "@/types";
 
   const GRID_SIZE = 100;
 
   export default defineComponent({
     components: {
-      VSwatches
     },
     props: {
       socket: {

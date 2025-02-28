@@ -1,17 +1,9 @@
 {
-  "name": "odraw-client",
+  "name": "odraw",
   "version": "1.0.0",
-  "description": "Le r/place de O'Clock",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/O-clock-Alternance-CDA/odraw-client.git"
-  },
-  "author": "O'clock",
+  "description": "Le r/place pour pixel War",
+  "author": "Damirdine",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/O-clock-Alternance-CDA/odraw-client/issues"
-  },
-  "homepage": "https://github.com/O-clock-Alternance-CDA/odraw-client#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
